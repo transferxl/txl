@@ -7,7 +7,8 @@ import (
 	"net/http"
 )
 
-const serverUrl = "https://txl.transferxl.com/"
+// TODO: Reenable HTTPS
+const serverUrl = "http://txl.transferxl.com/"
 
 type uploadCredentials struct {
 	Username string `json:"username"`

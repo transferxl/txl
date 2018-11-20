@@ -15,14 +15,14 @@ Downloaded 'videos.zip' in 54.6s (30.9 GB at 4.54 Gbit/s)
 
 On an EC2 instance with 10 Gbit networking capability, the following transfer speeds have been measured (us-east region).
 
-| c4.8xlarge (10 Gbit) | Round trip |  Upload | Download |
-|:---------------------| ----------:| -------:| --------:|
-| 100 GB               |    14:15.8 | 11:26.1 |  02:49.7 | min:s
-|                      |     *1.87* |  *1.17* |   *4.71* | *Gbit/s*
-| 200 GB               |    29:01.3 | 22:27.6 |  06:33.7 | min:s
-|                      |     *1.84* |  *1.19* |   *4.06* | *Gbit/s*
-| 300 GB               |    42:24.7 | 32:52.8 |  09:31.9 | min:s 
-|                      |     *1.89* |  *1.22* |   *4.20* | Gbit/s
+| c4.8xlarge (10 Gbit) | Round trip |  Upload | Download | Unit     |
+|:---------------------| ----------:| -------:| --------:|:---------| 
+| 100 GB               |    14:15.8 | 11:26.1 |  02:49.7 | min:s    |
+|                      |     *1.87* |  *1.17* |   *4.71* | *Gbit/s* |
+| 200 GB               |    29:01.3 | 22:27.6 |  06:33.7 | min:s    |
+|                      |     *1.84* |  *1.19* |   *4.06* | *Gbit/s* |
+| 300 GB               |    42:24.7 | 32:52.8 |  09:31.9 | min:s    |
+|                      |     *1.89* |  *1.22* |   *4.20* | Gbit/s   |
 
 See `performance.sh` in order to do measure your own speeds.
 
@@ -104,7 +104,8 @@ Flags:
   -r, --recipients string   email address of recipient(s)
   -s, --storage string      storage region for the transfer
   -u, --user string         user account
-  -v, --verbose             verbose output```
+  -v, --verbose             verbose output
+```
 
 ```
 $ txl get --help                                                                                                                                                         
