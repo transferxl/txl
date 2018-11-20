@@ -28,7 +28,7 @@ See `performance.sh` in order to do measure your own speeds.
 
 ## Download or build from source
 
-Download a prebuilt [binary]() or build your own: make sure Golang is [installed](https://golang.org/dl/) and do as follows:
+Download a prebuilt [binary](https://github.com/transferxl/txl/releases/tag/v0.9-prerelease) or build your own: make sure Golang is [installed](https://golang.org/dl/) and do as follows:
 
 ```
 $ go get -u github.com/transferxl/txl
